@@ -1,0 +1,42 @@
+body {
+  background-image: url("../images/pais.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section h1 {
+  margin: 75px 65px 30px;
+  font-size: 2rem;
+  color: rgb(22, 22, 21);
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 65px;
+}
+
+#email {
+  margin-top: 15px;
+  width: 400px;
+  height: 30px;
+}
+
+.btn_email {
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 40px;
+  width: 210px;
+  background-color: rgb(86, 216, 25);
+  color: rgb(12, 10, 6);
+}
+
+p {
+  line-height: 35px;
+  font-size: 28px;
+  margin: 10px 65px;
+  width: 450px;
+}
